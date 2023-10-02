@@ -11,6 +11,7 @@ import json
 import glob
 
 files = glob.glob("D:\\TTRPGs\\ttrpg-convert-cli-2.2.3-windows-x86_64\\bin\Pf2eTools\\data\\class\\class-*.json")
+file_count = 0
 
 def remove_trailing_comma(input_string):
     return input_string.rsplit(",", 1)[0]
@@ -167,5 +168,8 @@ for file in files:
         else:
             data += "N/A\n"
 
-        with open("pf_classes\\class-" + pf_class["name"].lower() + ".md", "w") as new_file:
+        with open("D:\\Users\\louis\\OneDrive\\Documents\\aeranis\\dm_pf2e\\classes\\class-" + pf_class["name"].lower() + ".md", "w") as new_file:
             new_file.write(data)
+            file_count += 1
+
+print(file_count)
