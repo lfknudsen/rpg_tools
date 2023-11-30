@@ -1,7 +1,11 @@
 # RPG-Tools
 Small utilities for TTRPGs and cross-platform use of SRD resources. Feel free to contribute.
 
-Note: This repository does not and will never contain any content which it does not have usage rights to. Please support the writers, artists, designers, playtesters, and more who work hard to make our favourite TTRPGs by buying the books, and make sure only to use the content which you own.
+## Licensing Notice
+This repository does not and will never contain any content which it does not have usage rights to. Please support the writers, artists, designers, playtesters, and more who work hard to make our favourite TTRPGs by buying the books, and make sure only to use the content which you own.
+
+## Usage
+Please see the individual script files for details. This repo is more public cloud storage than something I expect anyone else will really find use for.
 
 ## Use-cases
 There are two different (but related) utility categories/use-cases currently.
